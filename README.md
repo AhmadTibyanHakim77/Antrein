@@ -26,7 +26,7 @@ Antrein membantu pelanggan memilih layanan dan jadwal, mengambil antrean langsun
 
 | Bagian                | Teknologi                                   |
 | --------------------- | ------------------------------------------- |
-| Backend               | Laravel 13, PHP 8.3+                        |
+| Backend               | Laravel 13, PHP 8.4.1+                      |
 | Frontend              | React 19, TypeScript, Inertia.js            |
 | Styling               | Tailwind CSS 4                              |
 | Build                 | Vite Plus / Vite                            |
@@ -35,7 +35,7 @@ Antrein membantu pelanggan memilih layanan dan jadwal, mengambil antrean langsun
 
 ## Persyaratan
 
-- PHP 8.3 atau lebih baru beserta ekstensi Laravel yang dibutuhkan.
+- PHP 8.4.1 atau lebih baru beserta ekstensi Laravel yang dibutuhkan.
 - Composer 2.
 - Node.js versi yang didukung Vite Plus dan npm.
 - Database SQLite untuk pengembangan lokal, atau MySQL untuk deployment.
@@ -68,7 +68,7 @@ Akun pertama dibuat melalui halaman **Mulai gratis**. Setelah mendaftar, pemilik
 
 ## Deploy ke hosting Laravel
 
-Antrein adalah aplikasi full-stack Laravel, bukan situs statis. Gunakan hosting yang menyediakan PHP 8.3+, Composer 2, Node.js/npm untuk build, database MySQL atau PostgreSQL, HTTPS, dan akses document root. Arahkan domain ke direktori `public` aplikasi. Deploy frontend statis saja ke Vercel tidak akan menjalankan Laravel atau database.
+Antrein adalah aplikasi full-stack Laravel, bukan situs statis. Gunakan hosting yang menyediakan PHP 8.4.1+, Composer 2, Node.js/npm untuk build, database MySQL atau PostgreSQL, HTTPS, dan akses document root. Arahkan domain ke direktori `public` aplikasi. Deploy frontend statis saja ke Vercel tidak akan menjalankan Laravel atau database.
 
 ### 1. Siapkan variabel produksi
 
