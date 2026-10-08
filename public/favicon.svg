@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="antrein" x1="8" y1="6" x2="58" y2="62" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f9b8e"/>
+      <stop offset="1" stop-color="#075e59"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="21" fill="url(#antrein)"/>
+  <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+    <path d="M21 16h12M21 48h12M21 32h22m-6-6 6 6-6 6"/>
+  </g>
+  <g fill="#fff">
+    <circle cx="15" cy="16" r="3.2"/>
+    <circle cx="15" cy="32" r="3.2"/>
+    <circle cx="15" cy="48" r="3.2"/>
+  </g>
+  <circle cx="49" cy="14" r="3.5" fill="#a7f3d0"/>
+</svg>
