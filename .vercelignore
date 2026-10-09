@@ -1,0 +1,10 @@
+.env
+.env.*
+/.git
+/.github
+/.vercel
+/node_modules
+/vendor
+/tests
+/database/*.sqlite
+/public/hot

@@ -68,6 +68,8 @@ Akun pertama dibuat melalui halaman **Mulai gratis**. Setelah mendaftar, pemilik
 
 ## Deploy ke hosting Laravel
 
+Untuk membuat deployment percobaan di Vercel, ikuti [panduan deployment Vercel](deploy/vercel.md). Antrein tetap membutuhkan database produksi eksternal dan pengaturan environment variables.
+
 Antrein adalah aplikasi full-stack Laravel, bukan situs statis. Gunakan hosting yang menyediakan PHP 8.4.1+, Composer 2, Node.js/npm untuk build, database MySQL atau PostgreSQL, HTTPS, dan akses document root. Arahkan domain ke direktori `public` aplikasi. Deploy frontend statis saja ke Vercel tidak akan menjalankan Laravel atau database.
 
 ### 1. Siapkan variabel produksi
